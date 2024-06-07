@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ocean-Clean - Login</title>
+    <link rel="stylesheet" href="/login/styles-login.css">
+</head>
+<body>
+    <header>
+        <div class="content">
+            <img class="content-img" src="/imagens/cropped_logo-removebg-preview.png" alt="Logo OceanClean">
+            <h1>Ocean-Clean</h1>
+            <a href="/FRONT PAGE/index.html"><button class="but1">Voltar para a página inicial</button></a>
+        </div>
+    </header>
+    <main class="container">
+        <h1>Login</h1>
+        <form id="loginForm">
+            <label for="username">Usuário:</label>
+            <input type="text" id="username" name="username"><br><br>
+            <label for="password">Senha:</label>
+            <input type="password" id="password" name="password"><br><br>
+            <input type="submit" value="Entrar">
+        </form>
+    
+        <script>
+            document.getElementById('loginForm').addEventListener('submit', function(event) {
+                event.preventDefault(); 
+                alert("Login feito com sucesso!");
+            });
+        </script>
+    </main>
+    <footer>
+        <p>&copy; 2024 Ocean-Clean. Todos os direitos reservados.</p>
+    </footer>
+    
+</body>
+</html>
