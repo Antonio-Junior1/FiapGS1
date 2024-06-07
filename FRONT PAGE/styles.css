@@ -11,19 +11,18 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-   
-    
+    background-image: url("/imagens/plastic-waste-7617451.jpg");
+    background-size: cover;
 }
 
 header {
     background-color: #00B4D8;
     color: #FFFFFF;
     padding: 15px 0;
-    text-align: center; 
+    text-align: center;
     width: 100%;
     top: 0;
     z-index: 1000;
-    ;
 }
 
 header .content {
@@ -33,7 +32,6 @@ header .content {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
-   ;
 }
 
 header img {
@@ -61,7 +59,7 @@ header .but1:hover {
 
 .container {
     max-width: 1200px;
-    margin: 120px auto 20px; /* Ajustado para dar espaço ao header fixo */
+    margin: 120px auto 20px;
     padding: 20px;
     background-color: #f9f9f9;
     border-radius: 8px;
@@ -98,6 +96,76 @@ article {
 
 #botaoSaibaMais:hover {
     background-color: #0056b3;
+}
+
+.new-section {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #e0f7fa;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.new-section h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.new-section p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.new-section .but2 {
+    background-color: #0077B6;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.new-section .but2:hover {
+    background-color: #005F8A;
+}
+
+
+/* section contato */
+.neww-section {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #00B4D8    ;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.neww-section2 h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.neww-section p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.neww-section .but2 {
+    background-color: #0077B6;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.neww-section .but2:hover {
+    background-color: #005F8A;
 }
 
 footer {
