@@ -216,5 +216,9 @@ header .but1:hover {
        .developer {
          margin: 10px;
        }
+       footer {
+        padding: 5px 0;
+      }
     }
+  
    
