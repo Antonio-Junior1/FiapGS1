@@ -1,11 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contato - Ocean-Clean</title>
+    <link rel="stylesheet" href="./styles-contato.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <header>
+        <div class="content">
+            <a href="/FRONT PAGE/index.html"> 
+                <img class="content-img" src="/imagens/cropped_logo-removebg-preview.png" alt="Logo OceanClean">
+            </a>
+            <h1>Ocean-Clean</h1>
+            <a href="/login/login.html"><button class="but1">Login</button></a>
+        </div>
+    </header>
     
-</body>
-</html>
+    <main class="container">
+        <div class="contact-form">
+            <h2>Entre em Contato</h2>
+            <form action="#" method="POST" onsubmit="return enviarEmail()">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+                <button type="submit" class="but2">Enviar</button>
+            </form>
+        </div>
+        <h2>Desenvolvedores</h2>
+        <div class="developers-section">
+            <div class="developer">
+                <img src="/imagens/WhatsApp Image 2024-06-07 at 04.22.27.jpeg" alt="Foto Desenvolvedor 1">
+                <h3>Antonio Junior</h3>
+                <p>RM: 554518 </p>
+                <p>Email: AntonioJunior@Gmail.com</p>
+                <div class="social-links">
+                    <a href="https://github.com/Antonio-Junior1">github</a>
+                    <a href="https://www.instagram.com/jrz__7/">instagram</a>
+                    
+                </div>
+            </div>
+            <div class="developer">
+                <img src="/imagens/WhatsApp Image 2024-04-26 at 13.19.10.jpeg" alt="Foto Desenvolvedor 2">
+                <h3>Carlos Eduardo </h3>
+                <p>RM: 555223 </p>
+                <p>Email: CarlosEduardo@Gmail.com</p>
+                <div class="social-links">
+                    <a href="https://github.com/CarlosCampos84">github</a>
+                    <a href="https://www.instagram.com/c4duzin_n/">instagram</a>
+                
+                </div>
+            </div>
+            <div class="developer">
+                <img src="/imagens/WhatsApp Image 2024-04-26 at 18.30.28.jpeg" alt="Foto Desenvolvedor 3">
+                <h3>Mateus Teni</h3>
+                <p>RM: 555125</p>
+                <p>Email: MateusTeni@Gmail.com</p>
+                <div class="social-links">
+                    <a href="https://github.com/Mateus077777">github</a>
+                    <a href="https://www.instagram.com/mateuspierro/">instagram</a>
+                    
+                </div>
+            </div>
+        </div>
+    </main>

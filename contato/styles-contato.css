@@ -4,4 +4,140 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url("/imagens/plastic-waste-7617451.jpg");
+    background-size: cover;
+}
 
+header {
+    background-color: #00B4D8;
+    color: #FFFFFF;
+    padding: 15px 0;
+    text-align: center;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+header .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header img {
+    max-width: 150px;
+}
+
+header h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+header .but1 {
+    background-color: #0077B6;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+header .but1:hover {
+    background-color: #005F8A;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 120px auto 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    background-color: #e0f7fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.contact-form h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background-color: #0077B6;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #005F8A;
+}
+
+.developers-section {
+    display: flex;
+    
+    background-color: #00B4D8;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.developers-section img{
+    width: 200px;
+    height: 350px;
+}
+.developers-section h2 {
+    font-size: 28px;
+    
+}
+
+.developers-section ul {
+    list-style-type: none;
+    
+}
+
+.developers-section ul li {
+   
+    font-size: 18px;
+    margin-bottom: 5px;
+    
+}
